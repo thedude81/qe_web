@@ -39,7 +39,7 @@
 
           
   
-    <title>Home</title>
+    <title>QE - Members</title>
   </head>
 
   <body data-bs-spy="scroll">      
@@ -100,78 +100,355 @@
   </div>
 </nav>
     <!-- Page Content -->
-    <!-- Main Content -->
-<div class="container pt-4 mt-4">                
+    <!-- Members -->
+<div class="container p-4 mt-4 ">                
   <div class="row align-items-end">                   
-    <div class="col-lg">
-        <div class="flex-shrink-0 p-3" style="width: auto;">
-          <h1>Quality Engineering</h1>
-          <h2>End-to-End IT Quality management</h2>          
-          <p class="mt-4 pb-2 intro-text">Quality Engineering (QE) is a research group at the Department of Computer Science at Universität Innsbruck. QE strives for end-to-end quality management of IT systems in the context of today´s rapid digital transformation.</p>               
-          <h4>Mission Statement</h4>
-          <hr>
-          <img src="/assets/images/intro-img.svg" class="img-fluid rounded col-md-4 float-md-start me-md-4 pt-4" alt="..." style="padding-right: 10px; margin-bottom: 15px; width: auto; height: 256px; ">                                                                   
-          <p class="intro-text" style="padding-top: 25px;">We research methods and develop tools to intercept the inherent tradeoff between quality and security, time, and resources in industrial-scale environments. Our philosophy epitomizes continuous, collaborative, constructive, and analytical quality assurance in IT management, software engineering, and systems operation. Our goal is to develop foundational, yet practicable solutions that are evaluated in industrial contexts.</p>                    
-        </div>                              
+    <div class="col-md" >     
+      <h1>Members</h1>
+      <hr />
+      <p>Please click the headers to sort the table.</p>
+      <div class="spacer"></div>
+    <div class="table-responsive">
+      <table class="table" id="qe_sortTable">
+        <thead>
+          <tr>
+            <th scope="col" onclick="sortTable(0)">Surname</th>
+            <th scope="col" onclick="sortTable(1)">Name</th>
+            <th scope="col">Position</th>
+            <th scope="col">Office</th>
+            <th scope="col">Office Hours</th>
+            <th scope="col">Web</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>            
+            <td>Breu</td>
+            <td>Ruth</td>
+            <td>Full Professor</td>
+            <td>3S05</td>
+            <td>Registration by mail is requested</td>
+            <td><a href="#"><img src="/assets/images/globe.svg" alt="globe symbol"/></a></td>
+          </tr>
+          <tr>            
+            <td>Breu</td>
+            <td>Michael</td>
+            <td>Projektleiter</td>
+            <td>FSS, 109a</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Sauerwein</td>
+            <td>Clemens</td>
+            <td>Assistant Professor</td>
+            <td>3S03</td>
+            <td>11:30 - 12:00</td>
+            <td><a href="#"><img src="/assets/images/globe.svg" alt="globe symbol"/></a></td>
+          </tr>
+          <tr>            
+            <td>Zech</td>
+            <td>Philipp</td>
+            <td>Assistant Professor</td>
+            <td>3S04</td>
+            <td>11:30 - 12:00</td>
+            <td><a href="#"><img src="/assets/images/globe.svg" alt="globe symbol"/></a></td>
+          </tr>
+          <tr>            
+            <td>Felderer</td>
+            <td>Michael</td>
+            <td>Assistant Professor</td>
+            <td>3S09</td>
+            <td>11:30 - 12:00</td>     
+            <td></td>      
+          </tr>        
+          <tr>            
+            <td>Adigun</td>
+            <td>Jubril</td>
+            <td>PhD Student</td>
+            <td>3S04</td>
+            <td>11:30 - 12:00</td>     
+            <td></td>      
+          </tr>
+          <tr>            
+            <td>Blaas</td>
+            <td>Alexander</td>
+            <td>MSc Student</td>
+            <td>3N10</td>
+            <td>11:30 - 12:00</td>         
+            <td></td>   
+          </tr>
+          <tr>            
+            <td>Jäger</td>
+            <td>Alexandra</td>
+            <td>Senior Lecturer / Senior Scientist</td>
+            <td>3S03</td>
+            <td>11:30 - 12:00</td>      
+            <td></td>      
+          </tr>
+          <tr>            
+            <td>Kaltenbrunner</td>
+            <td>Lukas</td>
+            <td>Senior Lecturer</td>
+            <td>3M02</td>
+            <td>11:30 - 12:00</td>           
+            <td></td> 
+          </tr>
+          <tr>            
+            <td>Pekaric</td>
+            <td>Irdin</td>
+            <td>PhD Student</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td> 
+          </tr>
+          <tr>            
+            <td>Priller</td>
+            <td>Simon</td>
+            <td>Senior Lecturer / Senior Scientist</td>
+            <td>3M02</td>
+            <td>11:30 - 12:00</td>           
+            <td></td> 
+          </tr>
+          <tr>            
+            <td>Schweiger</td>
+            <td>Harald</td>
+            <td>Senior Lecturer</td>
+            <td>3M02</td>
+            <td>11:30 - 12:00</td>           
+            <td></td> 
+          </tr>
+          <tr>
+            <td>Steidel</td>
+            <td>Monika</td>
+            <td>PhD Student</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td> 
+          </tr>
+          <tr>            
+            <td>Ristov</td>
+            <td>Shashko</td>
+            <td>Post Doc</td>
+            <td>3W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td> 
+          </tr>
+          <tr>            
+            <td>Stolz</td>
+            <td>Nikolas</td>
+            <td>IT Systems Engineer</td>
+            <td>3W05</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Antensteiner</td>
+            <td>Tobias</td>
+            <td>MSc Student</td>
+            <td>3M02</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Crazzolara</td>
+            <td>Daniel</td>
+            <td>Master Student</td>
+            <td>FSS.109a</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Dornauer</td>
+            <td>Benedikt</td>
+            <td>MSc Student</td>
+            <td>3W05</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Ernst</td>
+            <td>Melanie</td>
+            <td>MSc Student</td>
+            <td>3N10</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Foidl</td>
+            <td>Harald</td>
+            <td>MSc Student</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Frankford</td>
+            <td>Eduard</td>
+            <td>-</td>
+            <td>FSS 109a</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Goldin</td>
+            <td>Emanuele</td>
+            <td>MSc Student</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Golendukhina</td>
+            <td>Valentina</td>
+            <td>PhD Student</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Grimm</td>
+            <td>Niklas</td>
+            <td>-</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td>-</td>
+          </tr>
+          <tr>            
+            <td>Larcher</td>
+            <td>Thomas</td>
+            <td>Student trainee</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Medvedova</td>
+            <td>Alzbeta</td>
+            <td>MSc Student</td>
+            <td>2M04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Mussmann</td>
+            <td>Andrea</td>
+            <td>MSc Student</td>
+            <td>3M02</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Perschke</td>
+            <td>Moritz</td>
+            <td>MSc Student</td>
+            <td>3N10</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Pfister</td>
+            <td>Zoé</td>
+            <td>MSc Student</td>
+            <td>3N10</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Rainer</td>
+            <td>Daniel</td>
+            <td>BSc Student</td>
+            <td>FSS, 109a</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Schöttl</td>
+            <td>Jakob</td>
+            <td>MSc Student</td>
+            <td>3N10</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Seelmann</td>
+            <td>Juri</td>
+            <td>MSc Student</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Senoner</td>
+            <td>Simon</td>
+            <td>BSc Student</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Sommer</td>
+            <td>Martina</td>
+            <td>Administration</td>
+            <td>3M11</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Van Zeller Lacerda</td>
+            <td>Eduardo</td>
+            <td>-</td>
+            <td>2W04</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Westphal</td>
+            <td>Jennifer</td>
+            <td>BSc Student</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Winder</td>
+            <td>Lucas</td>
+            <td>MSc Student</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Alzbeta</td>
+            <td>Medvedova</td>
+            <td>PhD Student</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Bilal</td>
+            <td>Hassan</td>
+            <td>Student trainee</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+          <tr>            
+            <td>Neuer</td>
+            <td>Mitarbeiter</td>
+            <td>MSc Student</td>
+            <td>2W03</td>
+            <td>11:30 - 12:00</td>           
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </div>
+  </div>                                 
+ </div>
 </div>
 
-<!-- News -->
-<div class="container pt-4 mt-4">
-  <div class="row align-items-end">
-    <div class="col-md">
-      <div class="flex-shrink-0 p-3" style="width: auto;">
-        <h3>Latest News</h3>
-        <hr>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Start Cards -->
-<div class="container p-4 pb-0 gx-4 pt-0">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <!-- Card 1 -->
-    <div class="col">
-      <div class="card h-100">
-        <img src="/assets/images/a.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 01.08.2022</small>
-          </div>
-      </div>
-    </div>
-    <!-- Card 2 -->
-    <div class="col">
-      <div class="card h-100">
-        <img src="/assets/images/b.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 01.08.2022</small>
-          </div>
-      </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="col">
-      <div class="card h-100">
-        <img src="/assets/images/c.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 01.08.2022</small>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
+
      <!-- Footer Content Bar-->
      <div class="container mt-4 pt-4">
   <footer class="py-3 my-4">

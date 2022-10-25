@@ -1,0 +1,6 @@
+plugins_dir: ./_plugins
+
+jekyll_xml:
+  - data: nasa
+    source: https://www.nasa.gov/rss/dyn/solar_system.rss
+    cache: true
