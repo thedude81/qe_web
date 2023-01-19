@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "News"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Research"
+    url: /research/research
+  - title: "Members"
+    url: /members/index
+  - title: "Projects"
+    url: /projects/index
+  - title: "Sitemap"
+    url: /sitemap/
